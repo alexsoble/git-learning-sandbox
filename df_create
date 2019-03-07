@@ -1,0 +1,6 @@
+import pandas as pd #creating a dataframe using the random function form numpy
+import numpy as np
+import matplotlib as plt
+%matplotlib inline
+df=pd.DataFrame(np.random.randn(4,3))
+df
